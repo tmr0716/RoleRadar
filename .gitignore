@@ -1,0 +1,23 @@
+# Database (Ignore local SQLite database so test data isn't committed)
+*.db
+*.sqlite3
+roleradar.db
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# Virtual Environment (if created)
+venv/
+.venv/
+env/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
