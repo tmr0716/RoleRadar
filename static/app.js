@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:5000/api/v1";
+const API_BASE = "https://roleradar-7egx.onrender.com/api/v1";
 
 document.addEventListener("DOMContentLoaded", () => {
     fetchApplications();
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 alert(`Error adding application: ${errData.error || 'Server error'}`);
             }
         } catch (err) {
-            alert("Could not connect to backend server. Make sure 'python -m app.main' is running on http://127.0.0.1:5000");
+            alert("Could not connect to the RoleRadar backend server.");
             console.error(err);
         }
     });
